@@ -1,0 +1,39 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = ".NET Pizza Co.";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Let's Eat Some Pizza!</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+Our pizzas are hot, hot, hot!!
+
+<div style="color: #D8000C; background-color: #FFBABA">
+  @Model.ErrorMessage
+</div> 
+
+<table class="table">
+   <thead>
+      <tr>
+         <th>Pizza Name</th>
+         <th>Ingredients</th>
+         <th>Cost</th>
+         <th>In Stock</th>
+      </tr>
+   </thead>
+   <tbody>
+      @foreach (var pizza in @Model.Pizzas)
+      {
+         <tr>
+            <td>@pizza.PizzaName</td>
+            <td>@pizza.Ingredients</td>
+            <td>$@pizza.Cost</td>
+            <td>@pizza.InStock</td>
+         </tr>
+      }
+   </tbody>
+</table>
+
