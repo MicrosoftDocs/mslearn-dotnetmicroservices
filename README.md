@@ -1,5 +1,20 @@
+## Sample for the Build your first microservice in .NET learn module
 
-# Contributing
+Microservice applications are composed of small, independently versioned, and scalable customer-focused services that communicate with each other over standard protocols with well-defined interfaces. Each microservice typically encapsulates simple business logic, which you can scale out or in, test, deploy, and manage independently.  Smaller teams develop a microservice based on a customer scenario and use any technologies that they want to use. This module will teach you how to build your first microservice with .NET.
+
+In order to run the code in this repo as a microservice, please complete the [Build your first microservice in .NET](https://docs.microsoft.com/learn/modules/dotnet-microservices).
+
+### Steps to run
+
+1. You will need to add the **Dockerfile** to the web API in the backend folder.
+1. And add the **docker-compose.yml** file to the root folder.
+
+Along with the necessary Docker commands for building an image and running Docker compose as well.
+
+Check out the Learn module to find out all about [Building your first microservice in .NET](https://docs.microsoft.com/learn/modules/dotnet-microservices).
+
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -13,7 +28,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
