@@ -21,7 +21,8 @@ namespace backend.Controllers
             new PizzaInfo { PizzaName = "Forest Floor", Ingredients = "Mushrooms, rutabagas, and walnuts", Cost = 20, InStock = "yes"},
             new PizzaInfo { PizzaName = "Don't At Me", Ingredients = "Pineapple, Canadian bacon, jalapeños", Cost = 25, InStock = "yes"},
             new PizzaInfo { PizzaName = "Vanilla", Ingredients = "Sausage and pepperoni", Cost = 15, InStock = "no"},
-            new PizzaInfo { PizzaName = "Spice Coming At Ya", Ingredients = "Peppers, chili sauce, spicy andouille", Cost = 50, InStock = "yes"}
+            new PizzaInfo { PizzaName = "Spice Coming At Ya", Ingredients = "Peppers, chili sauce, spicy andouille", Cost = 50, InStock = "yes"},
+            new PizzaInfo { PizzaName = "aaaaaaaaaaaaaaaaa", Ingredients = "Peppers, chili sauce, spicy andouille", Cost = 50, InStock = "yes"}
         };
 
         private readonly ILogger<PizzaInfoController> _logger;
